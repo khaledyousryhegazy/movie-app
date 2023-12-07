@@ -1,10 +1,4 @@
-name: Generate Coverage
+name: VITE_APP_TMDB_TOKEN
 
-  env:
-    REACT_APP_BASE_URL: ${{ secrets.VITE_APP_TMDB_TOKEN }} 
-
-  run: | 
-
-    npm 
-
-    npm install
+  env : 
+      REACT_APP_BASE_URL: ${{ secrets.VITE_APP_TMDB_TOKEN }} 
