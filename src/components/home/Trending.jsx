@@ -12,7 +12,7 @@ function Trending() {
     setEndPoint(tab === "Day" ? "day" : "week");
   };
   return (
-    <div className="container">
+    <div className="container py-10">
       <Switch
         title="Trending"
         tabs={["Day", "Week"]}

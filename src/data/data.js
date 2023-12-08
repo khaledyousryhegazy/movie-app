@@ -61,7 +61,7 @@ export const FooterData = [
 // Swiper break points
 // Regular swiper
 export const regularBreakPoints = {
-  375: {
+  335: {
     slidesPerView: 2,
   },
   576: {
@@ -77,7 +77,7 @@ export const regularBreakPoints = {
 
 // Small swiper
 export const smallBreakPoints = {
-  375: {
+  335: {
     slidesPerView: 2,
   },
   576: {

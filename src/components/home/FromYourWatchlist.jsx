@@ -35,7 +35,7 @@ function FromYourWatchlist() {
                     alt={item?.name || item?.title}
                   />
 
-                  <h3 className="my-2 p-2 h-fit text-sm font-semibold">
+                  <h3 className="my-2 p-2 h-fit text-center text-sm font-semibold m-0 ">
                     {item?.name || item?.title}
                   </h3>
                 </div>
@@ -44,7 +44,7 @@ function FromYourWatchlist() {
           </Swiper>
         </div>
       ) : (
-        <h1 className="text-red-600 font-semibold text-xl text-center">
+        <h1 className="text-red-600 font-semibold text-xl text-center py-16">
           Your Watch Is Empty <FontAwesomeIcon icon={faFaceFrown} />
         </h1>
       )}

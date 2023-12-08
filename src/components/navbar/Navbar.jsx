@@ -16,6 +16,7 @@ function Navbar() {
   const close = () => {
     ref.current.classList.remove(styles.open);
   };
+
   // End mobile nav
 
   return (
@@ -36,6 +37,7 @@ function Navbar() {
               <Link
                 to={link.path}
                 className="hover:text-red-600 transition duration-200 text-sm"
+                onClick={close}
               >
                 {link.title}
               </Link>

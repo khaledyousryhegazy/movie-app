@@ -59,7 +59,7 @@ function SearchResults() {
         } Results For "${query.query}" .`}
       />
 
-      <div className="pt-5 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-[20px]">
+      <div className="pt-5 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] max-[768px]:grid-cols-[repeat(auto-fill,minmax(130px,1fr))] gap-[20px]">
         {data?.length > 0 &&
           data
             ?.filter((item) => item?.media_type !== "person")

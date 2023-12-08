@@ -11,9 +11,11 @@ function Tabs({ title, tabs, onTabChange }) {
   };
 
   return (
-    <div className="w-full sm:w-auto">
-      <h1 className="text-2xl my-5 font-semibold">{title}</h1>
-      <div className="h-full  rounded-md p-1 ">
+    <div className="w-full sm:w-auto flex items-center justify-between max-[576px]:flex-col max-[576px]:items-start">
+      <h1 className="text-xl relative my-5 font-semibold main_title px-3 py-1 bg-gray-200 w-fit">
+        {title}
+      </h1>
+      <div className="h-full rounded-md  ">
         <div className="relative  flex justify-end gap-2 items-center">
           {tabs?.map((tab, index) => (
             <span

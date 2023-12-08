@@ -30,7 +30,7 @@ function Item({ icon, data, endPoint }) {
           alt={data?.name || data?.title}
         />
 
-        <h3 className="my-2 p-2 h-fit text-sm font-semibold">
+        <h3 className="my-2 p-2 h-fit text-sm font-semibold m-0 text-center">
           {data?.name || data?.title}
         </h3>
       </Link>

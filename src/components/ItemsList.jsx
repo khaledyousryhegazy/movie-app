@@ -36,7 +36,7 @@ function ItemsList({ endPoint }) {
     <div className="container py-5">
       <Switch title={title} />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-[20px]">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] max-[768px]:grid-cols-[repeat(auto-fill,minmax(130px,1fr))] gap-[20px]">
         {data?.results?.length > 0 &&
           data?.results?.map((item) => (
             <Item key={item?.id} data={item} endPoint={endPoint} />
