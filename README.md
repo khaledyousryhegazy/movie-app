@@ -1,4 +1,4 @@
-[Live site URL](https://movie-review-2023.netlify.app)
+[Live site URL](https://moviereview2023.netlify.app/)
 # This is an  entertainment application using React, Redux, Tailwind, and the TMDB API. The app offers a seamless and enjoyable browsing experience for movie and TV show enthusiasts.
 
 ### Features 
