@@ -10,7 +10,7 @@ function Cast({ item }) {
         src={profilePath}
         alt={item?.name}
       />
-      <h3 className="text-center text-md font-semibold text-red-600">
+      <h3 className="text-center text-md font-semibold text-[#BB86FC]">
         {item?.name}
       </h3>
       <p className="text-sm text-center">{item?.character}</p>

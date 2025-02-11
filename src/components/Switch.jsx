@@ -12,7 +12,7 @@ function Tabs({ title, tabs, onTabChange }) {
 
   return (
     <div className="w-full sm:w-auto flex items-center justify-between max-[576px]:flex-col max-[576px]:items-start">
-      <h1 className="text-xl relative my-5 font-semibold main_title px-3 py-1 bg-gray-200 w-fit">
+      <h1 className="text-xl relative my-5 font-semibold main_title px-3 py-1 text-[#BB86FC] w-fit">
         {title}
       </h1>
       <div className="h-full rounded-md  ">
@@ -21,7 +21,7 @@ function Tabs({ title, tabs, onTabChange }) {
             <span
               key={tab}
               className={`${
-                selectedTab === index ? "bg-red-600 text-white" : ""
+                selectedTab === index ? "bg-[#BB86FC] text-white" : ""
               }  relative flex h-full w-32 cursor-pointer items-center justify-center rounded-md font-semibold p-2  transition duration-200 ease-in-out text-sm`}
               onClick={() => activeTab(tab, index)}
             >

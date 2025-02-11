@@ -44,7 +44,7 @@ function FromYourWatchlist() {
           </Swiper>
         </div>
       ) : (
-        <h1 className="text-red-600 font-semibold text-xl text-center py-16">
+        <h1 className="text-[#BB86FC] font-semibold text-xl text-center py-16">
           Your Watch Is Empty <FontAwesomeIcon icon={faFaceFrown} />
         </h1>
       )}

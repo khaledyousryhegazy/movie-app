@@ -28,7 +28,7 @@ function SearchBar() {
       <input
         placeholder="Search "
         type="text"
-        className="w-full py-1 px-7 rounded-md outline-none placeholder:text-gray-500 placeholder:text-sm border"
+        className="w-full text-gray-900 py-1 px-7 rounded-md outline-none placeholder:text-gray-900 placeholder:text-sm border"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onBlur={searchQueryHandler}

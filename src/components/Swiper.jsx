@@ -15,6 +15,8 @@ function SwiperReact({ data, type, endPoint, icon }) {
         spaceBetween={30}
         breakpoints={type === "regular" ? regularBreakPoints : smallBreakPoints}
         className="mySwiper my-7"
+        lazyPreloadPrevNext={true}
+        grabCursor
       >
         {data?.map((item) => (
           <SwiperSlide

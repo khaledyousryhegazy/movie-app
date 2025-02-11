@@ -11,7 +11,7 @@ function Footer() {
           return (
             <a key={ele.id} href={ele.href} target="_blank">
               <FontAwesomeIcon
-                className="hover:text-red-600 transition duration-150"
+                className="hover:text-[#BB86FC] transition duration-150"
                 icon={ele.icon}
               />
             </a>
@@ -20,7 +20,7 @@ function Footer() {
       </div>
       {/* Copy right */}
       <div className="text-sm font-semibold">
-        &copy; 2023 By <span className="text-red-600">Khaled Yousry</span>
+        &copy; 2023 By <span className="text-[#BB86FC]">Khaled Yousry</span>
       </div>
     </div>
   );

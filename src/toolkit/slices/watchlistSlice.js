@@ -17,7 +17,7 @@ const alert = () => {
   Toast.fire({
     icon: "success",
     title: "Added To Watchlist Successfully",
-    iconColor: "#dc2626",
+    iconColor: "#BB86FC",
   });
 };
 

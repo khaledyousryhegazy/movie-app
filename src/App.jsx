@@ -16,6 +16,7 @@ import NotFound from "./components/NotFound";
 
 function App() {
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(fetchApiConfig());
   }, [dispatch]);

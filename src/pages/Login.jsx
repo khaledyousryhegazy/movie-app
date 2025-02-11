@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="container grid place-items-center min-h-[100vh]">
-      <div className="max-w-md relative flex flex-col p-4 rounded-md text-black bg-white">
-        <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center">
-          Welcome back to <span className="text-red-600">Movie Review</span>
+      <div className="max-w-md relative flex flex-col p-4 rounded-md text-black ">
+        <div className="text-2xl font-bold mb-2 text-[#BB86FC] text-center">
+          Welcome back to <span className="text-[#BB86FC]">Movie Review</span>
         </div>
-        <div className="text-sm font-normal mb-4 text-center text-[#1e0e4b]">
+        <div className="text-sm font-normal mb-4 text-center text-[#BB86FC]">
           Log in to your account
         </div>
         <form className="flex flex-col gap-3">
@@ -27,17 +27,17 @@ function Login() {
           </div>
 
           <div>
-            <a className="text-sm text-red-600" href="#">
+            <a className="text-sm text-[#BB86FC]" href="#">
               Forgot your password?
             </a>
           </div>
-          <button className="bg-red-600 opacity-80 hover:opacity-100 transition duration-200 w-max m-auto px-6 py-2 rounded text-white text-sm font-normal">
+          <button className="bg-[#BB86FC] opacity-80 hover:opacity-100 transition duration-200 w-max m-auto px-6 py-2 rounded text-white text-sm font-normal">
             Login
           </button>
         </form>
-        <div className="text-sm text-center mt-[1.6rem]">
+        <div className="text-sm text-center mt-[1.6rem] text-white">
           Don’t have an account yet?{" "}
-          <Link to="/sign-in" className="text-sm text-red-600" href="#">
+          <Link to="/sign-in" className="text-sm text-[#BB86FC]" href="#">
             Sign up for free!
           </Link>
         </div>

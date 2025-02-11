@@ -36,7 +36,7 @@ function Navbar() {
             <li key={link.id}>
               <Link
                 to={link.path}
-                className="hover:text-red-600 transition duration-200 text-sm"
+                className="hover:text-[#BB86FC] transition duration-200 text-sm"
                 onClick={close}
               >
                 {link.title}

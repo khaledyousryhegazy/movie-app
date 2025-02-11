@@ -45,7 +45,7 @@ export const FooterData = [
   {
     id: 2,
     icon: faLinkedin,
-    href: "https://www.linkedin.com/in/khalid-yousry-a35b15234/",
+    href: "https://www.linkedin.com/in/khaled-yousry-a35b15234/",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const FooterData = [
   {
     id: 4,
     icon: faInstagram,
-    href: "https://www.instagram.com/khaledyousry_21/",
+    href: "https://www.instagram.com/_kh.yo/",
   },
 ];
 // Swiper break points

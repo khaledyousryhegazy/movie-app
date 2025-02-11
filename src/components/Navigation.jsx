@@ -7,7 +7,7 @@ function Navigation({ nextPage, prevPage, pageNum, data }) {
       <button
         onClick={prevPage}
         disabled={pageNum === 1}
-        className={`flex items-center gap-2 capitalize p-3 bg-red-600 text-white rounded-md ${
+        className={`flex items-center gap-2 capitalize p-3 bg-[#BB86FC] text-white rounded-md ${
           pageNum === 1 ? "cursor-default" : "cursor-pointer"
         }`}
       >
@@ -16,7 +16,7 @@ function Navigation({ nextPage, prevPage, pageNum, data }) {
 
       <button
         onClick={nextPage}
-        className={`flex items-center gap-2 capitalize p-3 bg-red-600 text-white rounded-md ${
+        className={`flex items-center gap-2 capitalize p-3 bg-[#BB86FC] text-white rounded-md ${
           data && data.length === 0 ? "cursor-default" : "cursor-pointer"
         }`}
       >

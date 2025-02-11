@@ -12,11 +12,11 @@ function WatchlistItems({ item }) {
   return (
     <div
       key={`${item?.id}${item?.name || item?.title} `}
-      className="bg-gray-200 p-4 rounded-md flex relative items-center gap-5 max-[576px]:flex-col"
+      className="bg-gray-800 p-4 rounded-md flex relative items-center gap-5 max-[576px]:flex-col"
     >
       <FontAwesomeIcon
         icon={faXmark}
-        className="absolute z-10 bg-red-600 text-white p-2 rounded-md top-4 right-4 cursor-pointer opacity-70 hover:opacity-100 transition duration-200"
+        className="absolute z-10 bg-[#BB86FC] text-white p-2 rounded-md top-4 right-4 cursor-pointer opacity-70 hover:opacity-100 transition duration-200"
         onClick={() => {
           dispatch(remove(item));
         }}
@@ -30,7 +30,7 @@ function WatchlistItems({ item }) {
 
       <div className="flex flex-col gap-5">
         <div className="flex gap-10 items-center max-[576px]:justify-center">
-          <h3 className="font-semibold text-red-600">
+          <h3 className="font-semibold text-[#BB86FC]">
             {item?.name ? item?.name : item?.title}
           </h3>
           <div className="flex items-center gap-2">

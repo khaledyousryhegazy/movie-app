@@ -19,7 +19,7 @@ function ItemDetails({ data }) {
         {/* title */}
         <div className="flex gap-3 items-center max-[768px]:flex-col max-[768px]:items-start ">
           <div className="flex items-center gap-2">
-            <h1 className="font-semibold text-red-600">
+            <h1 className="font-semibold text-[#BB86FC]">
               {data?.title || data?.name}
             </h1>
             <span className="flex items-center gap-2">
@@ -47,13 +47,13 @@ function ItemDetails({ data }) {
         </div>
         {/* data and status */}
         <div>
-          <span className="font-semibold text-red-600">Date</span> :{" "}
+          <span className="font-semibold text-[#BB86FC]">Date</span> :{" "}
           <span className="text-sm font-semibold opacity-80">
             {data?.release_date || data?.first_air_date}
           </span>
         </div>
         <div>
-          <span className="font-semibold text-red-600">Status</span> :{" "}
+          <span className="font-semibold text-[#BB86FC]">Status</span> :{" "}
           <span className="text-sm font-semibold opacity-80">
             {data?.status}
           </span>
@@ -61,7 +61,7 @@ function ItemDetails({ data }) {
         {/* overview */}
         {data?.overview ? (
           <div>
-            <span className="font-semibold text-red-600"> Overview</span> :{" "}
+            <span className="font-semibold text-[#BB86FC]"> Overview</span> :{" "}
             <p className="inline text-sm font-semibold opacity-70">
               {data?.overview}
             </p>
@@ -69,12 +69,12 @@ function ItemDetails({ data }) {
         ) : null}
         {/* genres */}
         <div className="flex flex-wrap items-center gap-3">
-          <span className="font-semibold text-red-600">Genres</span> :
+          <span className="font-semibold text-[#BB86FC]">Genres</span> :
           {data?.genres.map((e) => {
             return (
               <span
                 key={e.id}
-                className="text-sm font-semibold opacity-80 p-1 bg-gray-200 rounded-md"
+                className="text-sm font-semibold opacity-80 p-1 bg-gray-800 rounded-md"
               >
                 {e?.name}
               </span>

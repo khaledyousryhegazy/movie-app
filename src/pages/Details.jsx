@@ -43,7 +43,7 @@ function Details() {
   }
   //   Error
   if (itemError || videoError || castError || similarError) {
-    return <h3 className="text-center text-red-600">{itemError}</h3>;
+    return <h3 className="text-center text-[#BB86FC]">{itemError}</h3>;
   }
 
   return (
